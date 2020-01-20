@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import './styles/Badges.css';
 import confLogo from '../images/badge-header.svg';
-import BadgesList from '../components/BadgesList';
+import BadgesList from '../component/BadgesList';
 
 class Badges extends React.Component {
   state = {
@@ -62,7 +62,15 @@ class Badges extends React.Component {
           <div className="Badges__list">
             <div className="Badges__container">
               <BadgesList badges={this.state.data}/>
- 
+              <ul className="list-unstyled">
+                {this.state.data.map((badge) => {
+                    return (
+                      <li key={badge.id}>
+                        <p>{badge.firstName} {badge.lastName}</p>
+                      </li>
+                    )
+                })}
+              </ul>
             </div>
           </div>
 

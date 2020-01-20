@@ -1,39 +1,22 @@
 import React from 'react';
 
 class BadgeForm extends React.Component {
-  // state = { //Inicializa el estado del prop value en los inputs.
-  //   // jobTitle: 'Designer'
-  // };
-
-  // handleChange = evento => {
-  //   /* console.log({
-  //     name: evento.target.name,
-  //     value: evento.target.value
-  //   }); */
-
-  //   this.setState({ //Guarda el estato actual de los inputs.
-  //     [evento.target.name]: evento.target.value
-  //   })
-  // };
-
-  handleClick = evento => {
-    console.log('Me hicieron click');
+  handleClick = e => {
+    console.log('Button was clicked');
   };
 
-  handleSubmit = evento => {
-    evento.preventDefault(); //Evita que el evento submit al presionar el botón.
-    console.log('Se envió el formulario');
+  handleSubmit = e => {
+    e.preventDefault();
+    console.log('Form was submitted');
+    console.log(this.state);
   };
-
-  
-
 
   render() {
     return (
       <div>
         <h1>New Attendant</h1>
 
-        <form>
+        <form onSubmit={this.handleSubmit}>
           <div className="form-group">
             <label>First Name</label>
             <input
@@ -89,7 +72,7 @@ class BadgeForm extends React.Component {
             />
           </div>
 
-          <button onClick={this.handleSubmit} className="btn btn-primary" type="submit">
+          <button onClick={this.handleClick} className="btn btn-primary">
             Save
           </button>
         </form>

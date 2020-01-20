@@ -13,7 +13,7 @@ class BadgeNew extends React.Component {
       firstName:'',
       lastName:'',
       email:'',
-      jobTitle:'',
+      jobTitle:'Designer',
       twitter:''
     }
   };
@@ -39,13 +39,11 @@ class BadgeNew extends React.Component {
           <div className="row">
             <div className="col-6">
               <Badge 
-                // {...this.state.form}
                 avatarUrl="https://imgur.com/fMsLStH.jpg" 
-                firstName={this.state.form.firstName}
-                lastName={this.state.form.lastName} 
-                twitter={this.state.form.twitter} 
-                jobTitle={this.state.form.jobTitle}
-                email={this.state.form.email}
+                firstName="Fran" 
+                lastName="Salinas" 
+                twitter="franlitchi" 
+                jobTitle="Frontend Dev" 
               />
             </div>
 

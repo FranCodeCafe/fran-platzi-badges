@@ -1,9 +1,9 @@
 import React from 'react';
 
 class BadgeForm extends React.Component {
-  // state = { //Inicializa el estado del prop value en los inputs.
-  //   // jobTitle: 'Designer'
-  // };
+  state = { //Inicializa el estado del prop value en los inputs.
+    // jobTitle: 'Designer'
+  };
 
   // handleChange = evento => {
   //   /* console.log({
@@ -41,7 +41,7 @@ class BadgeForm extends React.Component {
               className="form-control"
               type="text"
               name="firstName"
-              value={this.props.formValues.firstName}
+              value={this.state.firstName}
             />
           </div>
 
@@ -52,7 +52,7 @@ class BadgeForm extends React.Component {
               className="form-control"
               type="text"
               name="lastName"
-              value={this.props.formValues.lastName}
+              value={this.state.lastName}
             />
           </div>
 
@@ -63,7 +63,7 @@ class BadgeForm extends React.Component {
               className="form-control"
               type="email"
               name="email"
-              value={this.props.formValues.email}
+              value={this.state.email}
             />
           </div>
 
@@ -74,7 +74,7 @@ class BadgeForm extends React.Component {
               className="form-control"
               type="text"
               name="jobTitle"
-              value={this.props.formValues.jobTitle}
+              value={this.state.jobTitle}
             />
           </div>
 
@@ -85,7 +85,7 @@ class BadgeForm extends React.Component {
               className="form-control"
               type="text"
               name="twitter"
-              value={this.props.formValues.twitter}
+              value={this.state.twitter}
             />
           </div>
 

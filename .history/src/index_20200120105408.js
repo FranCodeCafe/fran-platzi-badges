@@ -3,12 +3,11 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import './global.css';
-import BadgeNew from './pages/BadgeNew';
-import Badges from './pages/Badges';
+import BadgeNew from './components/BadgeNew';
 
 const container = document.getElementById('app');
 
-ReactDOM.render(<Badges 
+ReactDOM.render(<BadgeNew 
     /* firstName="Fran"
     lastName="Salinas"
     avatarUrl="https://imgur.com/fMsLStH.jpg"

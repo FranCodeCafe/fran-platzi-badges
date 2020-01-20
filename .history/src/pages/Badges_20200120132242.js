@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import './styles/Badges.css';
 import confLogo from '../images/badge-header.svg';
-import BadgesList from '../components/BadgesList';
+import BadgesList from '../component/BadgesList';
 
 class Badges extends React.Component {
   state = {
