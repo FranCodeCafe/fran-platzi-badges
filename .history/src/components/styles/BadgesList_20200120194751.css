@@ -9,23 +9,16 @@
 .twitterLogo{
     width: 22px;
     height: auto;
+    border-radius: 50px;
 }
 
 .twitterID{
     color: #00aced;
     font-size: 14px;
-    vertical-align: baseline;
-    
-}
-
-.avatar{
-    border-radius: 50px;
-    margin: 20px;
 }
 
 .name{
     font-weight: bold;
-    padding: 12px 0px 0px 0px;
 }
 
 .jobTitle{

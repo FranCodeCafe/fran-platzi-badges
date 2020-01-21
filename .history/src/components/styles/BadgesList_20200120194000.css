@@ -1,9 +1,7 @@
 
 .badges-list-container{
     background-color: #ffffff;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    box-shadow: 4px 4px 3px 1px rgba(0,0,0,0.15);
+    margin-bottom: 10px;
 }
 
 .twitterLogo{
@@ -14,18 +12,10 @@
 .twitterID{
     color: #00aced;
     font-size: 14px;
-    vertical-align: baseline;
-    
-}
-
-.avatar{
-    border-radius: 50px;
-    margin: 20px;
 }
 
 .name{
     font-weight: bold;
-    padding: 12px 0px 0px 0px;
 }
 
 .jobTitle{
@@ -33,5 +23,5 @@
 }
 
 .profile-info{
-    
+    padding: -10px;
 }

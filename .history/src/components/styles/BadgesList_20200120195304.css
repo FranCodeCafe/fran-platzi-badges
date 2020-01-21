@@ -14,8 +14,6 @@
 .twitterID{
     color: #00aced;
     font-size: 14px;
-    vertical-align: baseline;
-    
 }
 
 .avatar{
@@ -25,7 +23,7 @@
 
 .name{
     font-weight: bold;
-    padding: 12px 0px 0px 0px;
+    padding: 15px 0px 0px 0px;
 }
 
 .jobTitle{

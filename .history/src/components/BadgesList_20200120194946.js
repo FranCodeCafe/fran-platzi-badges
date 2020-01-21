@@ -12,7 +12,7 @@ class BadgesList extends React.Component {
               //ESTILOS AQUÍ!
               <div className="badges-list-container">
                 <div className="row">
-                  <div className="col-3">
+                  <div className="col-6">
                     <li key={badge.id}>
                       <img className="avatar" src={badge.avatarUrl} alt="Avatar" />
                     </li>
