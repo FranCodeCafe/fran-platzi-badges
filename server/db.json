@@ -14,7 +14,7 @@
       "firstName": "Major",
       "lastName": "Rodriguez",
       "email": "Ilene66@hotmail.com",
-      "jobTitle": "Human Research Architect",
+      "jobTitle": "Human  Architect",
       "twitter": "MajorRodriguez61545",
       "avatarUrl": "https://www.gravatar.com/avatar/d57a8be8cb9219609905da25d5f3e50a?d=identicon"
     },
@@ -40,19 +40,10 @@
       "id": "1921a734-cc05-4f71-a677-ffe38dda6958",
       "firstName": "Maude",
       "lastName": "Effertz",
-      "email": "Dan_Weimann0@yahoo.com",
+      "email": "Weimann0@yahoo.com",
       "jobTitle": "Product Solutions Analyst",
       "twitter": "MaudeEffertz73114",
       "avatarUrl": "https://www.gravatar.com/avatar/01d0de92ec9ca4fdfbb99edf6a1abfea?d=identicon"
-    },
-    {
-      "id": "3629db36-14f9-4f24-b139-200f3a1b9af7",
-      "firstName": "Breanna",
-      "lastName": "Runolfsdottir",
-      "email": "Laurianne.Lynch@gmail.com",
-      "jobTitle": "Lead Marketing Director",
-      "twitter": "BreannaRunolfsdottir70705-1477",
-      "avatarUrl": "https://www.gravatar.com/avatar/684697e194c66d338c5ee91d030121cc?d=identicon"
     },
     {
       "id": "8c734836-1f7a-4493-b903-37db30fc7224",
@@ -440,6 +431,46 @@
       "jobTitle": "Lawyer",
       "twitter": "ckaufmanpr",
       "id": "npaYZKI"
+    },
+    {
+      "firstName": "Fran",
+      "lastName": "Salinas",
+      "email": "franciscasalinascastillo@gmail.com",
+      "jobTitle": "Frontend dev",
+      "twitter": "franlitchi",
+      "id": "bq6O832"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "johndoe@mail.com",
+      "jobTitle": "Designer",
+      "twitter": "johndoedotcom",
+      "id": "uy-3Oxn"
+    },
+    {
+      "firstName": "Karen",
+      "lastName": "Cat",
+      "email": "karencat@hola.com",
+      "jobTitle": "Software Engineer",
+      "twitter": "karencat",
+      "id": "l30ccXl"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "jobTitle": "",
+      "twitter": "",
+      "id": "67OhaLo"
+    },
+    {
+      "firstName": "Hello",
+      "lastName": "World",
+      "email": "helloworld@mail.com",
+      "jobTitle": "Master of everything",
+      "twitter": "helloworld",
+      "id": "JWmX8AH"
     }
   ]
 }
