@@ -5,9 +5,6 @@ import astronauts from '../images/astronauts.svg';
 import platziconflogo from '../images/platziconf-logo.svg';
 
 
-
-
-
 function Home(){
     return(
         <React.Fragment>
